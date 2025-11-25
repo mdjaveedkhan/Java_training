@@ -1,17 +1,16 @@
 import java.util.Scanner;
-
 public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     System.out.print("Enter your name: ");
-    String name = scanner.nextLine();
+    String name = sc.nextLine();
     System.out.print("Enter your age: ");
-    int age = scanner.nextInt();
+    int age = sc.nextInt();
     System.out.print("Enter your height (in cm): ");
-    double heightInCm = scanner.nextDouble();
+    double heightInCm = sc.nextDouble();
     System.out.print("Enter your weight: ");
-    float weight = scanner.nextFloat();
+    float weight = sc.nextFloat();
     System.out.print("Enter your gpa: ");
-    double gpa = scanner.nextDouble();
+    double gpa = sc.nextDouble();
     double heightInMeters = heightInCm / 100;
     double bmi = weight / (heightInMeters * heightInMeters);
     String bmiCategory;
@@ -34,6 +33,5 @@ public static void main(String[] args) {
     }
     String result = (gpa >= 2.5) ? "Pass" : "Fail";
     System.out.println("Result " + result);
-
-    scanner.close();
+    sc.close();
 }
