@@ -1,4 +1,4 @@
-package org.example.operator;
+package org.example.ClassWork.operator;
 
 public class RelationalOperator {
     public static void main(String[] args) {
