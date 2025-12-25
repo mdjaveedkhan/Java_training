@@ -1,4 +1,4 @@
-package org.example.module_3.inheritance.example_1;
+package org.example.ClassWork.inheritance.example_1;
 
 public class SavingAccount extends BankAccount {
     // attributes

@@ -1,6 +1,5 @@
 package org.example.assignment;
 import java.util.Scanner;
-
 public class MyCalculator {
     public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
@@ -16,6 +15,7 @@ public class MyCalculator {
         System.out.print("Enter your second number: ");
         double num2 = input.nextDouble();
         double result;
+        while(choice!=4){}
         switch (choice) {
             case 1:
                 result = num1 + num2;

@@ -1,4 +1,4 @@
-package org.example.module_3.static_keyword;
+package org.example.ClassWork.static_keyword;
 
 public class MyClass {
     public static void main(String[] args) {
