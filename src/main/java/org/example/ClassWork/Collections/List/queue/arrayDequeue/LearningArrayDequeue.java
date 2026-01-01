@@ -1,4 +1,4 @@
-package org.example.ClassWork.Collections.List.queue;
+package org.example.ClassWork.Collections.List.queue.arrayDequeue;
 
 import java.util.ArrayDeque;
 
@@ -22,5 +22,9 @@ public class LearningArrayDequeue {
         removedElement = myQeueue.poll();
         // 30 40
         System.out.println("Removed element: " + removedElement); // 20
+
+        Integer frontElement = myQeueue.peek();
+        // 30 40
+        System.out.println("Front element (peek): " + frontElement); // 30
     }
 }

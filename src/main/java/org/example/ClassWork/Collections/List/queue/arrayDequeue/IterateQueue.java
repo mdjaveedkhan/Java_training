@@ -1,4 +1,4 @@
-package org.example.ClassWork.Collections.List.queue;
+package org.example.ClassWork.Collections.List.queue.arrayDequeue;
 
 import java.util.ArrayDeque;
 import java.util.Iterator;
