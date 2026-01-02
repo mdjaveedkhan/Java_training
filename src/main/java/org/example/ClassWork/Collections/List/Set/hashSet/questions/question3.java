@@ -1,4 +1,4 @@
-package org.example.ClassWork.Collections.List.Set.hashSet;
+package org.example.ClassWork.Collections.List.Set.hashSet.questions;
 
 import java.util.HashSet;
 
